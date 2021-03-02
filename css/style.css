@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  line-height: 1.6;
+  background: url(../img/fondo.jpg) bottom;
+}
+p {
+  font-size: 14px;
+}
+a {
+  color: #0ebfdd;
+  text-decoration: none;
+}
+header {
+  background: url(../img/fondo_header.png) bottom;
+}
+.container__header {
+  height: 100px;
+  padding: 0 15px;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header h1 {
+  font-size: 44px;
+}
+span {
+  color: #0ebfdd;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  margin-left: 15px;
+  font-size: 18px;
+  list-style: none;
+  width: 80px;
+  height: 50px;
+  text-align: center;
+  padding: 10px 0;
+}
+.menu ul li:hover {
+  color: #0ebfdd;
+  background: white;
+  border-radius: 4px;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.imagen {
+  height: 600px;
+  padding: 50px 0;
+}
+.content {
+  width: 640px;
+  height: 650px;
+  padding: 0 30px 0 15px;
+}
+.content__main > h2 {
+  font-size: 46px;
+}
+.content__main p {
+  padding-bottom: 28px;
+}
+.services__list {
+  display: flex;
+  line-height: 1.6;
+  margin-top: 24px;
+}
+.services ul {
+  width: 50%;
+  padding: 0 15px;
+  list-style-image: url(../img/vineta.png);
+}
+.services ul li {
+  flex-direction: row;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.services__list ul a {
+  margin: 10px 0;
+}
+.aside {
+  width: 320px;
+  height: 650px;
+  padding: 0 15px 0 20px;
+}
+.aside img {
+  margin: 74px 0 25px;
+}
+.aside h2 {
+  margin-bottom: 24px;
+}
+.aside p {
+  margin-bottom: 25px;
+}
+.aside .link a {
+  margin-bottom: 10px;
+}
+footer {
+  background: url(../img/fondo_header.png) bottom;
+}
+.container__footer {
+  width: 960px;
+  margin: 0 auto;
+  height: 165px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+}
+.footer h2 {
+  font-size: 30px;
+  width: 210px;
+}
+.copy {
+  width: 410px;
+  font-size: 14px;
+  padding-right: 20px;
+}
+.social {
+  width: 300px;
+  padding-left: 20px;
+}
+.social ul {
+  display: flex;
+  list-style: none;
+}
+.social ul li {
+  margin-right: 10px;
+}
