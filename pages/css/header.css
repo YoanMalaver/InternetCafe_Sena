@@ -1,0 +1,39 @@
+header {
+  background: url(../../img/fondo_header.png) bottom;
+}
+.container__header {
+  height: 100px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header h1 {
+  font-size: 44px;
+}
+span {
+  color: #0ebfdd;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  margin-left: 15px;
+  font-size: 18px;
+  list-style: none;
+  width: 80px;
+  height: 50px;
+  text-align: center;
+  padding: 10px 0;
+}
+.menu ul li:hover {
+  background: white;
+  border-radius: 4px;
+}
+.menu ul li a {
+  color: #000000;
+}
+.menu ul li a:hover {
+  color: #0ebfdd;
+  cursor: pointer;
+}

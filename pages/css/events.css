@@ -1,0 +1,68 @@
+@import 'global.css';
+@import 'header.css';
+@import 'footer.css';
+.main {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.container__main {
+  width: 655px;
+  padding: 68px 30px 68px 15px;
+}
+.container__main h2 {
+  padding-bottom: 25px;
+}
+.container__main p,
+.container__main li {
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+.container__main p:nth-child(0n + 2) {
+  color: #0ebfdd;
+}
+.container__aside {
+  width: 320px;
+  padding: 68px 15px 68px 26px;
+}
+.container__aside img {
+  margin: 60px 0 35px 0;
+}
+.container__aside > div {
+  margin-top: 16px;
+}
+.container__aside p {
+  padding-bottom: 10px;
+}
+.container__aside > a {
+  margin-bottom: 20px;
+}
+.fecha {
+  color: #0ebfdd;
+}
+.list {
+  display: flex;
+}
+.list img {
+  width: 210px;
+  height: 155px;
+  object-fit: cover;
+  padding-top: 8px;
+}
+.list ul {
+  padding: 0 30px 0 45px;
+  list-style: none;
+  list-style-image: url(../../img/vineta.png);
+}
+.special {
+  display: flex;
+}
+.special__events {
+  width: 290px;
+}
+.special p:nth-child(0n + 2) {
+  color: #0ebfdd;
+}
+.left {
+  margin-right: 30px;
+}

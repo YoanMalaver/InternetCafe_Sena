@@ -1,0 +1,32 @@
+footer {
+  background: url(../../img/fondo_header.png) bottom;
+}
+.container__footer {
+  height: 165px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+}
+.footer h2 {
+  font-size: 30px;
+  width: 210px;
+}
+.copy {
+  width: 410px;
+  font-size: 14px;
+  padding-right: 20px;
+}
+.copy p {
+  margin-bottom: 8px;
+}
+.social {
+  width: 300px;
+  padding-left: 20px;
+}
+.social ul {
+  display: flex;
+  list-style: none;
+}
+.social ul li {
+  margin-right: 10px;
+}
