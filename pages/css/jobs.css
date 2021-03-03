@@ -1,0 +1,90 @@
+@import 'global.css';
+@import 'header.css';
+@import 'footer.css';
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+.our ul li,
+.develop__list ul li {
+  margin-bottom: 16px;
+}
+.container__main {
+  padding: 68px 30px 60px 15px;
+}
+.develop {
+  margin-bottom: 30px;
+}
+.develop h2 {
+  margin-bottom: 25px;
+}
+.develop__description {
+  display: flex;
+  margin-bottom: 25px;
+}
+.develop__description img {
+  width: 210px;
+  height: 145px;
+  padding: 6px 30px 0 0;
+}
+.develop__description p {
+  padding-right: 30px;
+}
+.develop__description p:first-child {
+  color: #0ebfdd;
+  margin-bottom: 10px;
+}
+.develop__list ul {
+  padding-left: 15px;
+  list-style: none;
+  font-size: 14px;
+  list-style-image: url(../../img/vineta.png);
+}
+
+.career__content {
+  display: flex;
+}
+.career__content > div {
+  margin-top: 25px;
+}
+.career_description p {
+  padding-right: 10px;
+  margin-bottom: 16px;
+}
+.career_description p:first-child {
+  color: #0ebfdd;
+}
+.left {
+  padding-right: 30px;
+}
+.container__aside {
+  padding: 68px 15px 60px 25px;
+}
+.container__aside ul {
+  font-size: 14px;
+  padding-left: 16px;
+  list-style: none;
+}
+.container__aside ul li {
+  list-style-image: url(../../img/vineta.png);
+}
+.our {
+  margin-bottom: 22px;
+}
+.our h2 {
+  margin-bottom: 22px;
+}
+.interview h2 {
+  margin: 22px 0;
+}
+.interview img {
+  margin-bottom: 24px;
+}
+.interview p {
+  margin-bottom: 16px;
+}
+.interview p:nth-child(2n + 0) {
+  color: #0ebfdd;
+}
