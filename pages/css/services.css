@@ -1,0 +1,58 @@
+@import 'global.css';
+@import 'header.css';
+@import 'footer.css';
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+.container__main {
+  padding: 68px 30px 38px 15px;
+}
+.container__main h2 {
+  margin-bottom: 20px;
+}
+.container__main p {
+  padding-bottom: 16px;
+}
+.description {
+  height: 300px;
+}
+.description p:nth-child(0n + 2) {
+  color: #0ebfdd;
+}
+.events {
+  display: flex;
+  margin-bottom: 30px;
+}
+.events__image img {
+  padding: 6px 0 0;
+}
+.events__descrption {
+  padding-left: 30px;
+}
+.events__descrption p:first-child {
+  color: #0ebfdd;
+}
+.container__aside {
+  padding: 68px 15px 38px 25px;
+}
+.container__aside h2 {
+  margin-bottom: 20px;
+}
+.service {
+  height: 300px;
+}
+.service img,
+.service p {
+  margin-bottom: 16px;
+}
+.our__service ul {
+  list-style: none;
+  padding-left: 15px;
+  font-size: 14px;
+}
+.our__service ul li {
+  margin-bottom: 16px;
+}
