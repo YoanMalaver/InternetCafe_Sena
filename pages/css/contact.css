@@ -1,0 +1,65 @@
+@import 'global.css';
+@import 'header.css';
+@import 'footer.css';
+
+main {
+  max-width: 960px;
+  height: 690px;
+  margin: 0 auto;
+  display: flex;
+  padding: 60px 15px;
+}
+.container__form {
+  width: 655px;
+}
+.container__form h2 {
+  margin-bottom: 20px;
+}
+label {
+  display: inline-block;
+  width: 11%;
+}
+.form {
+  padding-right: 30px;
+}
+.form__group {
+  margin-bottom: 8px;
+}
+.form__group input {
+  width: 370px;
+  height: 30px;
+}
+.form__group textarea {
+  width: 88%;
+  height: 355px;
+}
+
+.form__group label {
+  vertical-align: top;
+}
+.button {
+  text-align: right;
+}
+.button input {
+  width: 50px;
+  height: 25px;
+  margin-left: 30px;
+  cursor: pointer;
+  color: #0ebfdd;
+}
+.container__aside {
+  padding-left: 22px;
+}
+.container__aside img {
+  padding: 50px 0 40px 0;
+}
+.container__aside h2 {
+  margin-bottom: 30px;
+}
+.container__aside p {
+  margin-bottom: 16px;
+}
+.container__aside p span {
+  display: inline-block;
+  width: 30%;
+}
